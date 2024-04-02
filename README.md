@@ -27,4 +27,9 @@
 gradle build bootJar
 ```
 После завершение сборки можно запустить проект.
-Для запуска проекта внутри docker подготовлен [скрипт](docker/docker-start.cmd)
+Для запуска kafka внутри docker подготовлен [скрипт](docker/docker-start.cmd)
+Для запуска проекта нужно ввести следующую команду:
+````shell
+java -jar build/libs/order-service-0.0.1-SNAPSHOT.jar
+````
+
